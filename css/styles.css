@@ -10,17 +10,38 @@ body {
   
 }
 
+.bebas {
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+
 /* Header/logo Title */
 .header {
   padding: 80px;
   text-align: center;
   background: #e8e8e8 ;
-  color: white;
+  color: rgb(0, 0, 0);
+  
+  
+}
+
+.header > h1, img {
+  display:inline-flex;
+  margin: 20px;
+  align-items: bottom;
+}
+
+#logo_kop {
+  height: 160px;
+  width: auto;
+  display: inline;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 40px;
+  font-size: 60px;
+  font-family: 'Sen', sans-serif;
 }
 
 .navbar {
@@ -52,7 +73,7 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #8b8b8b;
   color: black;
 }
 
