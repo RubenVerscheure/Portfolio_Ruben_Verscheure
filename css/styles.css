@@ -15,24 +15,43 @@ body {
 /* Background_top_menu */
 
 header {
-  position: fixed;
+  position: relative;
   top: 0; left:0; right:0;
   background-color: #172936;
   height: 64px 5%;
-  padding: 20px;
+  padding: 12px ;
   padding-left: 30px;
   padding-right: 30px;
   align-items: center;
+  display: flex;
 }
 
 /* Logo_header */
 #Logo_White {
   height: 70px;
   min-height: 60px;
+}
+
+/* Navbar */
+header .navbar_fullscreen {
+  display:inline-flex;
+  margin: 20px;
+  align-items: center;
+  right:20px;
+}
+
+/* Navbar buttons */
+header .navbar_fullscreen a {
+  display:inline-flex;
+  color: #FFFF;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
   
 }
 
-/* Navigation buttons */
+
 
 
 .bebas {
