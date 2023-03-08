@@ -1,5 +1,5 @@
     
-// select dom items
+    // select dom items
     const menuBtn =
         document.querySelector(".menu-btn");
  
@@ -28,7 +28,7 @@
             menuBranding.classList.add("show");
             navItems.forEach((item) =>
                 item.classList.add("show"));
-                
+
             // Reset the menu state
             showMenu = true;
 
