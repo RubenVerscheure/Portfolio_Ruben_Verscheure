@@ -14,9 +14,6 @@
  
     const navItems =
         document.querySelectorAll(".nav-item");
-    
-    const btnLine =
-        document.querySelectorAll("btn-line")
  
     // Set the initial state of the menu
     let showMenu = false;
