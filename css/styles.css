@@ -2,12 +2,25 @@
   box-sizing: border-box;
 }
 
+/* Wide and Small-screen correct display */
+html {
+  scroll-behavior: smooth;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  height: 100%;
+}
+
 /* Styling Body */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: Helvetica, arial, sans-serif;
   margin: 0;
   background-color: #f9f9f9; 
-  
+  position: relative;
 }
 
 /* Styling top bar Widescreen */
@@ -28,8 +41,8 @@ header {
 
 /* Logo_header */
 #Logo_White {
-  height: 70px;
   min-height: 60px;
+  height: 70px;
   float: left;
 }
 
@@ -53,7 +66,7 @@ header .navbar_fullscreen a {
   font-size: 20px;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (max-width: 600px){
 header .navbar_fullscreen a {
   display: none
 }
@@ -66,10 +79,11 @@ header .navbar_fullscreen a:hover {
 }
 
 /* RWS Hamburger menu */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
  .menu-btn { display: none;}
  .menu { display: none;}
 }
+
   /* Styling the menu button */
   .menu-btn {
     position: absolute;
@@ -79,6 +93,13 @@ header .navbar_fullscreen a:hover {
     cursor: pointer;
     transition: all 0.4s ease-out;
   }
+
+  /* Logo Menu */
+  #Logo_black_hamburger {
+  min-height: 60px;
+  width: 15%;
+  
+}
 
   /* Styling the hamburger lines */
   .menu-btn .btn-line {
@@ -132,11 +153,6 @@ header .navbar_fullscreen a:hover {
   .nav-item:nth-child(3) {
     transition-delay: 0.21s;
   }
-
-
-
-
-
 
 
 #logo_kop {
