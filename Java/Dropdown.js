@@ -31,7 +31,7 @@
             menuBranding.classList.add("show");
             navItems.forEach((item) =>
                 item.classList.add("show"));
-            btnLine.style.color="#172936";
+            btnLine.style.color = "#172936"
             // Reset the menu state
             showMenu = true;
         } else {
