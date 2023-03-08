@@ -14,6 +14,9 @@
  
     const navItems =
         document.querySelectorAll(".nav-item");
+    
+    const btnLine =
+        document.querySelectorAll("btn-line")
  
     // Set the initial state of the menu
     let showMenu = false;
@@ -28,7 +31,7 @@
             menuBranding.classList.add("show");
             navItems.forEach((item) =>
                 item.classList.add("show"));
- 
+            btnLine.style.color="#172936";
             // Reset the menu state
             showMenu = true;
         } else {
