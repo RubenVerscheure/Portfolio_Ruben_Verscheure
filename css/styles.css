@@ -53,7 +53,7 @@ header .navbar_fullscreen a {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
 header .navbar_fullscreen a {
   display: none
 }
@@ -66,7 +66,7 @@ header .navbar_fullscreen a:hover {
 }
 
 /* RWS Hamburger menu */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
  .menu-btn { display: none;}
  .menu { display: none;}
 }
