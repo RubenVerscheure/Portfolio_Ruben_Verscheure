@@ -18,8 +18,8 @@
 // Set the initial state of the menu
   let showMenu = false;
 
-  menuBtn.addEventListener("click", toggleMenu);
-  (
+
+  
     function toggleMenu() {
       if (!showMenu) {
           menuBtn.classList.add("close");
@@ -42,4 +42,5 @@
           // Reset the menu state
           showMenu = false;
       }
-    })
+    }
+      menuBtn.addEventListener("click", toggleMenu);
