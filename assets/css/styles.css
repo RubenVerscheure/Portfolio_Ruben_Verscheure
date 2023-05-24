@@ -79,7 +79,7 @@ color: rgb(33,37,41) !important ;
   background-color: #F53100;
 }
 
-@media (max-width: 767) {
+@media (max-width: 500) {
   .carousel-indicators [data-bs-target] {
     width: 8px; /* change width */
     height: 8px; /* change height */
