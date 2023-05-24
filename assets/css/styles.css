@@ -79,7 +79,7 @@ color: rgb(33,37,41) !important ;
   background-color: #F53100;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767) {
   .carousel-indicators [data-bs-target] {
     width: 8px; /* change width */
     height: 8px; /* change height */
@@ -88,19 +88,4 @@ color: rgb(33,37,41) !important ;
     border-bottom: 10px;
     background-color: #F53100; 
   }
-}
-
-
-
-.cursor {
-  background-color: #F53100;
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  border: 1px solid black;
-  position: fixed;
-  pointer-events: none;
-  left: 0;
-  top: 0;
-  transform: translate(-50%, -50%);
 }
