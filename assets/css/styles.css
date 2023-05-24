@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+  .navlink {
+    padding-bottom: 100vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    /*height: 100vh;*/
+  }
+}
+
+.collapsing {
+  transition: 1s;
+}
+
+.navbar_collapse.collapsing {
+  /*transition: 1s;*/
+}
+
+.navbar-toggler {
+}
+
+.navbar {
+  /*--bs-navbar-toggler-transition: box-shadow 0.30s ease-in-out;*/
+}
+
+a {
+}
+
+@media (max-width: 767) {
+  element.style {
+    padding-bottom: 100vh!important;
+  }
+}
+

@@ -1,0 +1,12 @@
+a {
+  padding: 20px 25px;
+  position: relative;
+  transform-origin: top;
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    padding: 6vh 2vw 100vh;
+  }
+}
+

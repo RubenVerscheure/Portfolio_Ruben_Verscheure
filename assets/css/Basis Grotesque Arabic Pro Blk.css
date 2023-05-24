@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Basis Grotesque Arabic Pro Blk';
+	src: url(../../assets/fonts/BasisGrotesqueArabicPro-Black.woff2) format('woff2'),
+	url(../../assets/fonts/BasisGrotesqueArabicPro-Black.woff) format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}

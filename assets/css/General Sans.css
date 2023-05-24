@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-Extralight.ttf) format('truetype');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-ExtralightItalic.ttf) format('truetype');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-Regular.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-Light.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-Italic.ttf) format('truetype');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-LightItalic.ttf) format('truetype');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-Medium.ttf) format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-MediumItalic.ttf) format('truetype');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-Semibold.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-SemiboldItalic.ttf) format('truetype');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url(../../assets/fonts/GeneralSans-BoldItalic.ttf) format('truetype');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
