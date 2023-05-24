@@ -10,27 +10,8 @@
   }
 }
 
-.nav-link {
-  color:#F53100;
-}
-
-
-.collapsing {
-  transition: 1s;
-}
-
-.navbar_collapse.collapsing {
-  /*transition: 1s;*/
-}
-
-.navbar-toggler {
-}
-
 .navbar {
-  /*--bs-navbar-toggler-transition: box-shadow 0.30s ease-in-out;*/
-}
-
-a {
+ bs-navbar-toggler-transition: box-shadow 1.4s ease-in-out;
 }
 
 @media (max-width: 767) {
@@ -62,8 +43,4 @@ color: rgb(33,37,41);
 
 .form-control {
   background-color: #f0f0f0;
-}
-
-.PDF_dload > a:hover {
-  color: #F53100;
 }
