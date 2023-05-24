@@ -10,6 +10,8 @@
   }
 }
 
+.nav-link active
+
 .collapsing {
   transition: 1s;
 }
