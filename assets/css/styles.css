@@ -25,11 +25,6 @@
   }
 }
 
-@media (max-width: 767px) {
-  .navbar-collapse {
-    /*height: 100vh;*/
-  }
-}
 
 .navbar {
  bs-navbar-toggler-transition: box-shadow 1.4s ease-in-out;
@@ -77,16 +72,4 @@ color: rgb(33,37,41) !important ;
   margin-right: 10px;
   margin-left: 10px;
   background-color: #F53100;
-}
-
-@media (max-width: 500) {
-  .carousel-indicators [data-bs-target] {
-    width: 8px; /* change width */
-    height: 8px; /* change height */
-    border-radius: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-bottom: 0px;
-    background-color: #F53100;  
-  }
 }
