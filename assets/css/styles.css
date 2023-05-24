@@ -83,7 +83,7 @@ color: rgb(33,37,41) !important ;
   .carousel-indicators [data-bs-target] {
     width: 8px; /* change width */
     height: 8px; /* change height */
-    border-radius: 100%;
+    border-radius: 50%;
     margin-right: 10px;
     margin-left: 10px;
     border-bottom: 5px;
