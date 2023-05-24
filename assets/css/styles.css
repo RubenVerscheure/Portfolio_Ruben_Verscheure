@@ -1,22 +1,20 @@
-body {
-  cursor: none;
-}
 
 .Cuursor {
+  position: (fixed);
   left: 10px;
   width: 10px;
   height: 10px;
   transform: translate(-50%, 50%);
   background-color: #F53100;
-  color: #F53100;
   border-radius: 50%;
   pointer-events: none;
   transition: width 0.5s, height 0.5s;
+  mix-blend-mode: mixed;
 }
 
-.Cuursor.grow{
-  width: 25px;
-  height: 25px;
+.Cuursor.grow {
+  width: 20px;
+  height: 20px;
   transition: width 0.5s, height 0.5s;
 }
 
@@ -48,6 +46,10 @@ body {
   padding: 15px;
 }
 
+a:hover {
+  color: #f53100 !important;;
+}
+
 .robotlink {
   display: inline-flex;
   background-color: #F53100;
@@ -61,10 +63,14 @@ body {
 }
 
 .robotlink:hover {
-color: rgb(33,37,41);
+color: rgb(33,37,41) !important ;
 }
 
 .form-control {
   background-color: #f0f0f0;
+}
+
+footer > svg {
+ color: #f0f0f0 !important;
 }
 
