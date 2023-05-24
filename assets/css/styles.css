@@ -10,7 +10,10 @@
   }
 }
 
-.nav-link active
+.nav-link {
+  color:#F53100;
+}
+
 
 .collapsing {
   transition: 1s;
@@ -34,5 +37,26 @@ a {
   element.style {
     padding-bottom: 100vh!important;
   }
+}
+
+#P5JS {
+  margin: 15px;
+  padding: 15px;
+}
+
+.robotlink {
+  display: inline-flex;
+  background-color: #F53100;
+  border-radius: 25px;
+  padding: 8px;
+  color: #f0f0f0;
+  font-family: General Sans;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.robotlink active {
+background-color: rgb(33,37,41);
 }
 
