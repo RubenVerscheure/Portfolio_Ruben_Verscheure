@@ -70,10 +70,6 @@ color: rgb(33,37,41) !important ;
   background-color: #f0f0f0;
 }
 
-footer > svg {
- color: #f0f0f0 !important;
-}
-
 .carousel-indicators [data-bs-target] {
   width: 14px; /* change width */
   height: 14px; /* change height */
@@ -83,3 +79,14 @@ footer > svg {
   background-color: #F53100;
 }
 
+@media (max-width: 767px) {
+  .carousel-indicators [data-bs-target] {
+    width: 8px; /* change width */
+    height: 8px; /* change height */
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 5px;
+    background-color: #F53100; 
+  }
+}
