@@ -1,23 +1,35 @@
-let Cuursor = document.querySelector(".Cuursor");
+var cursor = document.querySelector('.cursor');
+var cursorinner = document.querySelector('.cursor2');
+var a = document.querySelectorAll('a');
 
-document.addEventListener("mousemove", moveCursor);
+document.addEventListener('mousemove', function(e){
+  var x = e.clientX;
+  var y = e.clientY;
+  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
+});
 
-function moveCursor(e) {
-    let x = e.clientX
-    let y = e.clientY
+document.addEventListener('mousemove', function(e){
+  var x = e.clientX;
+  var y = e.clientY;
+  cursorinner.style.left = x + 'px';
+  cursorinner.style.top = y + 'px';
+});
 
-Cuursor.styles.left = `${px}`;
-Cuursor.styles.top = `${px}`;
-}
+document.addEventListener('mousedown', function(){
+  cursor.classList.add('click');
+  cursorinner.classList.add('cursorinnerhover')
+});
 
-let links = Array.from(document.querySelectorAll("a"));
-console.log(links);
+document.addEventListener('mouseup', function(){
+  cursor.classList.remove('click')
+  cursorinner.classList.remove('cursorinnerhover')
+});
 
-links.forEach(links =>{
-    links.addEventListener('mouseover', ()=>{
-        Cuursor.classList.add("grow")
-    })
-    links.addEventListener('mousleave', ()=>{
-        Cuursor.classList.remove("grow")
-    })
+a.forEach(item => {
+  item.addEventListener('mouseover', () => {
+    cursor.classList.add('hover');
+  });
+  item.addEventListener('mouseleave', () => {
+    cursor.classList.remove('hover');
+  });
 })
