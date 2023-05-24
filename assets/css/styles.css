@@ -1,23 +1,7 @@
-
-.Cuursor {
-  position: (fixed);
-  left: 10px;
-  width: 10px;
-  height: 10px;
-  transform: translate(-50%, 50%);
-  background-color: #F53100;
-  border-radius: 50%;
-  pointer-events: none;
-  transition: width 0.5s, height 0.5s;
-  mix-blend-mode: mixed;
+body{
+  cursor: none;
+  cursor: url('assets/img/Filler images/Cursorred.gif');
 }
-
-.Cuursor.grow {
-  width: 20px;
-  height: 20px;
-  transition: width 0.5s, height 0.5s;
-}
-
 
 @media (max-width: 767px) {
   .navlink {
@@ -72,4 +56,17 @@ color: rgb(33,37,41) !important ;
   margin-right: 10px;
   margin-left: 10px;
   background-color: #F53100;
+}
+
+@media (max-width: 767) {
+  .carousel-indicators [data-bs-target] {
+    width: 9px; /* change width */
+    height: 9px; /* change height */
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+    background-color: #F53100;
+  }
+
 }
