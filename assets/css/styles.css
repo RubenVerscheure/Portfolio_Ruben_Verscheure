@@ -1,35 +1,30 @@
-body{
-  cursor: none;
-  cursor: url('assets/img/Filler images/Cursorred.gif');
-}
-
-@media (max-width: 767px) {
+@media (max-width: 767px) {  /* small screens add padding */
   .navlink {
     padding-bottom: 100vh;
   }
 }
 
 
-.navbar {
+.navbar { /* navbar animation duration*/
  bs-navbar-toggler-transition: box-shadow 1.4s ease-in-out;
 }
 
-@media (max-width: 767) {
+@media (max-width: 767) { /*override bootstrap for padding navbar*/
   element.style {
     padding-bottom: 100vh!important;
   }
 }
 
-#P5JS {
+#P5JS { /*robot clear space*/
   margin: 15px;
   padding: 15px;
 }
 
-a:hover {
+a:hover { /*color for links when hovering*/
   color: #f53100 !important;;
 }
 
-.robotlink {
+.robotlink { /*style for the clickeable links to iterations of the robot */
   display: inline-flex;
   background-color: #F53100;
   border-radius: 25px;
@@ -41,24 +36,24 @@ a:hover {
   margin-bottom: 15px;
 }
 
-.robotlink:hover {
+.robotlink:hover { /*change color for clickeable links to iterations of the robot */
 color: rgb(33,37,41) !important ;
 }
 
-.form-control {
+.form-control { /*contact form background*/
   background-color: #f0f0f0;
 }
 
 .carousel-indicators [data-bs-target] {
-  width: 14px; /* change width */
-  height: 14px; /* change height */
+  width: 14px;
+  height: 14px; 
   border-radius: 100%;
   margin-right: 10px;
   margin-left: 10px;
   background-color: #F53100;
 }
 
-@media (max-width: 767) {
+@media (max-width: 767) { /*small screen carousel indicator size*/
   .carousel-indicators [data-bs-target] {
     width: 9px; /* change width */
     height: 9px; /* change height */
